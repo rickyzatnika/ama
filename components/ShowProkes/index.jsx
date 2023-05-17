@@ -37,7 +37,7 @@ const ShowProtocol = () => {
         <div className=" w-full h-full flex flex-col items-center justify-between">
           <div className="text-lg w-full shadow-lg py-3 shadow-black/30 text-zinc-200 bg-zinc-800 text-center ">
             <h1 className="font-[Hattori]">PROTOKOL KESEHATAN</h1>
-            <p className="text-sm text-zinc-400 py-2">
+            <p className="text-sm text-zinc-400 py-2 px-1">
               Tanpa mengurangi rasa hormat, acara ini menerapkan Protokol
               Kesehatan, sesuai dengan peraturan & rekomendasi pemerintah.
             </p>

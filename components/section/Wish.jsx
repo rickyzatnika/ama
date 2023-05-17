@@ -19,7 +19,7 @@ const Wish = ({ guest, posts }) => {
                 WebQodes Digital Invitation
               </span>
               <p className="mb-2 p-2 text-sm leading-relaxed lg:text-md font-thin text-zinc-300 ">
-                Happy wedding Pidi & Fitri, semoga menjadi keluarga yang
+                Happy wedding Rahmadi & Dinda, semoga menjadi keluarga yang
                 Sakinah, Mawadah & Warohmah.. Amiin ..
               </p>
               <small className="text-zinc-500 p-2 ">
