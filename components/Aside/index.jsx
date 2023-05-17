@@ -25,7 +25,15 @@ const Aside = () => {
   return (
     <>
       <Sound />
-      <div className="w-full min-h-screen hidden lg:flex flex-col items-center justify-center">
+      <div className="w-full relative min-h-screen hidden lg:flex flex-col items-center justify-center">
+        <div className="absolute bg-goyang  top-0 left-0 w-full">
+          <Image
+            alt=""
+            src="/img/ornamen-2-atas.png"
+            width={100}
+            height={100}
+          />
+        </div>
         <div className="fixed z-30 top-14 text-zinc-300 text-3xl font-[timesi]">
           Wedding Invitation
         </div>

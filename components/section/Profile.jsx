@@ -44,7 +44,7 @@ const Profile = () => {
             />
           </div>
           <div className="flex flex-col gap-2 items-center justify-center px-4">
-            <h2 className="font-[Hattori] text-2xl bg-gradient-to-tr from-amber-600 via-yellow-700 bg-clip-text text-transparent">
+            <h2 className="font-[Hattori] text-xl sm:text-2xl bg-gradient-to-tr from-amber-600 via-yellow-700 bg-clip-text text-transparent">
               RAHMADI IRAWANSYAH
             </h2>
             <p className="text-zinc-600 text-center dark:text-zinc-500 text-sm">
@@ -84,7 +84,7 @@ const Profile = () => {
             />
           </div>
           <div className="flex flex-col gap-2 items-center justify-center px-4">
-            <h2 className="font-[Hattori] text-2xl bg-gradient-to-tr from-amber-600 via-yellow-700 bg-clip-text text-transparent">
+            <h2 className="font-[Hattori] text-xl sm:text-2xl bg-gradient-to-tr from-amber-600 via-yellow-700 bg-clip-text text-transparent">
               DINDA NOVITA SARY
             </h2>
             <p className="text-zinc-600 dark:text-zinc-500 text-center text-sm">

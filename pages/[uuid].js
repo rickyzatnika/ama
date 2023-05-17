@@ -63,7 +63,7 @@ const GetUniqueCode = ({ guest }) => {
       </div>
 
       <div className="w-full h-full py-4 md:py-44 pb-0 z-50 fixed top-0 lg:relative flex flex-col gap-4  items-center justify-center space-y-8">
-        <h3 className='text-amber-800/80 text-lg relative z-50'>Undangan Pernikahan</h3>
+        <h3 className='text-amber-900/80 font-semibold text-lg relative z-50'>Undangan Pernikahan</h3>
         <div className="flex w-fit items-center justify-center">
           <div className="border border-r-0 p-2 border-b-0 border-zinc-500/40 box-content  relative left-2 text-center">
             <Image
@@ -75,7 +75,7 @@ const GetUniqueCode = ({ guest }) => {
               objectFit="contain"
               priority
             />
-            <p className="text-md p-1 font-[Hattori] tracking-widest">DINDA</p>
+            <p className="text-sm text-amber-800/80 sm:text-md p-1 font-[Hattori] tracking-widest">DINDA</p>
           </div>
           <div className="relative border p-2 border-l-0 border-t-0 border-zinc-500/40 box-content  text-center -left-2 ">
             <Image
@@ -86,14 +86,14 @@ const GetUniqueCode = ({ guest }) => {
               objectFit="contain"
               priority
             />
-            <p className="text-md p-1 font-[Hattori] tracking-widest">RAHMADI</p>
+            <p className="text-sm text-amber-800/80 sm:text-md p-1 font-[Hattori] tracking-widest">RAHMADI</p>
           </div>
 
         </div>
-        <div className='w-fit rounded-lg border px-8 py-4 text-center leading-relaxed'>
-          <h4 className='mb-2 text-zinc-700'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
-          <p className='py-3 text-xl capitalize text-amber-800/80 font-[Hattori] tracking-wide'>{guest?.name}</p>
-          <p className='text-zinc-700'>Di Tempat.</p>
+        <div className='w-fit rounded-lg border px-8 py-1 text-center leading-relaxed'>
+          <h4 className='mb-2 text-sm sm:text-md text-zinc-700'>Kepada Yth, Bpk/Ibu/Saudara/i :</h4>
+          <p className='py-2 text-xl capitalize text-amber-800/80 font-[Hattori] tracking-wide'>{guest?.name}</p>
+          <p className='text-zinc-700 text-sm sm:text-md'>Di Tempat.</p>
         </div>
         <form className='w-fit items-center justify-center flex flex-col' onSubmit={handleSubmit(formSubmit)}>
           <input
@@ -113,18 +113,18 @@ const GetUniqueCode = ({ guest }) => {
                 type="submit"
                 className="py-2 flex items-center gap-1 cursor-pointer px-5 shadow-lg rounded shadow-black/20 text-zinc-200 hover:text-zinc-100 bg-[#9c8450]  hover:bg-[#867041] "
               >
-                <GiLoveLetter size={30} />
+                <GiLoveLetter size={22} />
                 Buka Undangan
               </button>
             </>
           ) : (
             <>
               <button
-                className="py-2 flex items-center gap-1 cursor-pointer px-5 shadow-lg rounded shadow-black/20 text-zinc-200 hover:text-zinc-100 bg-[#9c8450]  hover:bg-[#867041] "
+                className="py-2 flex text-sm items-center gap-1 cursor-pointer px-5 shadow-lg rounded shadow-black/20 text-zinc-200 hover:text-zinc-100 bg-[#9c8450]  hover:bg-[#867041] "
                 onClick={() => handleClick(guest?.status)}
                 type="submit"
               >
-                <GiLoveLetter size={30} />
+                <GiLoveLetter size={22} />
                 Buka Undangan
               </button>
             </>

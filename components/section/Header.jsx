@@ -31,15 +31,15 @@ const Header = () => {
         </motion.div>
         <div className="w-full h-screen bg-gradient-to-tr from-black via-black/60 to-transparent absolute top-0 z-10"></div>
         <div className="w-full h-full relative z-20 flex flex-col items-center space-y-8 justify-between">
-          <h1 className="text-zinc-300 font-[Hattori] text-lg md:text-3xl">
+          <h1 className="text-zinc-300/80 font-[Hattori] text-lg md:text-3xl">
             The Wedding Of
           </h1>
           <div className="text-center leading-relaxed py-4">
-            <h3 className="text-5xl  px-2 font-extrabold bg-gradient-to-tr from-amber-800 via-yellow-600 font-[parisienne] to-amber-600 bg-clip-text text-transparent py-2 ">
+            <h3 className="text-3xl sm:text-5xl  px-2 font-extrabold bg-gradient-to-tr from-amber-800 via-yellow-600 font-[parisienne] to-amber-600 bg-clip-text text-transparent py-2 ">
               Rahmadi
             </h3>
             <span className="font-[parisienne] text-3xl text-zinc-200">&</span>
-            <h4 className="text-5xl  px-2 font-extrabold bg-gradient-to-tr from-amber-800 via-yellow-600 font-[parisienne] to-amber-600 bg-clip-text text-transparent py-2">
+            <h4 className="text-3xl sm:text-5xl  px-2 font-extrabold bg-gradient-to-tr from-amber-800 via-yellow-600 font-[parisienne] to-amber-600 bg-clip-text text-transparent py-2">
               Dinda
             </h4>
           </div>

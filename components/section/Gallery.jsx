@@ -81,6 +81,36 @@ const Gallery = () => {
               />
             </div>
           </Link>
+          <Link href="/img/gallery/gallery-2.jpg">
+            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
+              <Image
+                width={100}
+                height={75}
+                layout="responsive"
+                objectFit="cover"
+                objectPosition="center"
+                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
+                src="/img/gallery/gallery-2.jpg"
+                alt=""
+                priority
+              />
+            </div>
+          </Link>
+          <Link href="/img/gallery/gallery-7.jpeg">
+            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
+              <Image
+                width={100}
+                height={75}
+                layout="responsive"
+                objectFit="cover"
+                objectPosition="center"
+                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
+                src="/img/gallery/gallery-7.jpeg"
+                alt=""
+                priority
+              />
+            </div>
+          </Link>
           <Link href="/img/gallery/gallery-4.jpg">
             <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
               <Image
@@ -111,7 +141,7 @@ const Gallery = () => {
               />
             </div>
           </Link>
-          <Link href="/img/gallery/gallery-1.jpg">
+          <Link href="/img/gallery/gallery-12.jpeg">
             <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
               <Image
                 width={100}
@@ -120,22 +150,7 @@ const Gallery = () => {
                 objectFit="cover"
                 objectPosition="center"
                 className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
-                src="/img/gallery/gallery-1.jpg"
-                alt=""
-                priority
-              />
-            </div>
-          </Link>
-          <Link href="/img/gallery/gallery-2.jpg">
-            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
-              <Image
-                width={100}
-                height={75}
-                layout="responsive"
-                objectFit="cover"
-                objectPosition="center"
-                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
-                src="/img/gallery/gallery-2.jpg"
+                src="/img/gallery/gallery-12.jpeg"
                 alt=""
                 priority
               />
@@ -151,6 +166,36 @@ const Gallery = () => {
                 objectPosition="center"
                 className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
                 src="/img/gallery/gallery-10.jpeg"
+                alt=""
+                priority
+              />
+            </div>
+          </Link>
+          <Link href="/img/2.jpeg">
+            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
+              <Image
+                width={100}
+                height={75}
+                layout="responsive"
+                objectFit="cover"
+                objectPosition="center"
+                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
+                src="/img/2.jpeg"
+                alt=""
+                priority
+              />
+            </div>
+          </Link>
+          <Link href="/img/gallery/gallery-1.jpg">
+            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
+              <Image
+                width={100}
+                height={75}
+                layout="responsive"
+                objectFit="cover"
+                objectPosition="center"
+                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
+                src="/img/gallery/gallery-1.jpg"
                 alt=""
                 priority
               />
@@ -181,51 +226,6 @@ const Gallery = () => {
                 objectPosition="center"
                 className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
                 src="/img/gallery/gallery-9.jpeg"
-                alt=""
-                priority
-              />
-            </div>
-          </Link>
-          <Link href="/img/gallery/gallery-11.jpeg">
-            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
-              <Image
-                width={100}
-                height={75}
-                layout="responsive"
-                objectFit="cover"
-                objectPosition="center"
-                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
-                src="/img/gallery/gallery-11.jpeg"
-                alt=""
-                priority
-              />
-            </div>
-          </Link>
-          <Link href="/img/gallery/gallery-7.jpeg">
-            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
-              <Image
-                width={100}
-                height={75}
-                layout="responsive"
-                objectFit="cover"
-                objectPosition="center"
-                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
-                src="/img/gallery/gallery-7.jpeg"
-                alt=""
-                priority
-              />
-            </div>
-          </Link>
-          <Link href="/img/gallery/gallery-12.jpeg">
-            <div className="overflow-hidden group border-amber-900/70 p-1 border rounded-md">
-              <Image
-                width={100}
-                height={75}
-                layout="responsive"
-                objectFit="cover"
-                objectPosition="center"
-                className="img-responsive rounded hover:scale-110 transition-all duration-300 ease-linear"
-                src="/img/gallery/gallery-12.jpeg"
                 alt=""
                 priority
               />

@@ -6,7 +6,7 @@ const Invitation = () => {
   return (
     <div
       id="profile"
-      className="w-full flex items-center flex-col py-14 justify-evenly min-h-screen bg-gradient-to-bl from-[#212121] to-black relative"
+      className="w-full flex items-center flex-col py-8 justify-evenly min-h-screen bg-gradient-to-bl from-[#212121] to-black relative"
     >
       {/* <div className="w-full bg-invitation absolute -rotate-45 mix-blend-screen left-44 sm:left-60 md:left-96 lg:left-40 top-0">
         <Image
@@ -25,7 +25,7 @@ const Invitation = () => {
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-zinc-300 mb-2 text-md md:text-2xl px-2 font-[Hattori]"
+          className="text-zinc-300/90 mb-2 text-lg md:text-xl px-2 font-[Hattori]"
         >
           Assalamu`alaikum Warahmatullahi Wabarakatuh
         </motion.h1>
@@ -50,7 +50,7 @@ const Invitation = () => {
         className="flex flex-col leading-relaxed justify-center text-center gap-2 items-center"
       >
         <span className="text-zinc-400 italic">Pada Tanggal :</span>
-        <span className="text-4xl bg-gradient-to-tr from-amber-400 via-yellow-600 to-amber-400 bg-clip-text text-transparent font-[parisienne]">
+        <span className="text-3xl py-2 bg-gradient-to-tr from-amber-400 via-yellow-600 to-amber-400 bg-clip-text text-transparent font-[parisienne]">
           10 Juni 2023
         </span>
       </motion.div>
@@ -124,7 +124,7 @@ const Invitation = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="py-2 px-5 bg-yellow-700 text-zinc-300 rounded">
+          <button className="py-2 text-sm px-5 bg-yellow-700 shadow text-zinc-300 rounded">
             {" "}
             Open Maps
           </button>
